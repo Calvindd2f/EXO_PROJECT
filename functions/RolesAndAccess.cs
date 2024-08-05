@@ -6,4 +6,8 @@ using System.Collections.Generic;
 using System.Management.Automation;
 
 namespace Exchange.functions.RolesAndAccess
-{}
+{
+    [Cmdlet(VerbsCommon.Add, 'MailboxLocation')]
+    public class AddMailboxLocation : PSCmdlet
+    { }
+}
