@@ -1,5 +1,4 @@
 // region Global Variables
-
 [Cmdlet(VerbsLifecycle.Should, "UseCustomRoutingByDefault")]
 [OutputType(typeof(bool))]
 public class ShouldUseCustomRoutingByDefaultCommand : Cmdlet
@@ -9,5 +8,4 @@ public class ShouldUseCustomRoutingByDefaultCommand : Cmdlet
         WriteObject(false);
     }
 }
-
 // endregion

@@ -303,6 +303,13 @@ public class GetAuthInfoUsingTokenProvider : PSCmdlet
     }
 }
 
+public class AuthInfo
+{
+    public string BaseUri { get; set; }
+    public string TenantId { get; set; }
+    // Add other properties as needed
+}
+
 [Cmdlet(VerbsSecurity.Protect, "Value")]
 public class ProtectValue : PSCmdlet
 {
@@ -1782,12 +1789,6 @@ public class ExecuteCommand : PSCmdlet
             }
         }
     }
-}
-public class AuthInfo
-{
-    public string BaseUri { get; set; }
-    public string TenantId { get; set; }
-    // Add other properties as needed
 }
 
 [Cmdlet(VerbsCommon.AddTo, "BatchRequest")]
