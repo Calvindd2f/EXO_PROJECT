@@ -303,7 +303,7 @@ public class GetAuthInfoUsingTokenProvider : PSCmdlet
     }
 }
 
-public class AuthInfo
+public class AuthInfo : PSObject
 {
     public string BaseUri { get; set; }
     public string TenantId { get; set; }
