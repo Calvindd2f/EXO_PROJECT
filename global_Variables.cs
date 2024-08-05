@@ -1,11 +1,14 @@
-// region Global Variables
-[Cmdlet(VerbsLifecycle.Should, "UseCustomRoutingByDefault")]
-[OutputType(typeof(bool))]
-public class ShouldUseCustomRoutingByDefaultCommand : Cmdlet
+namespace Exchange.GlobalVariables
 {
-    protected override void ProcessRecord()
+    // region Global Variables
+    [Cmdlet(VerbsLifecycle.Should, "UseCustomRoutingByDefault")]
+    [OutputType(typeof(bool))]
+    public class ShouldUseCustomRoutingByDefaultCommand : Cmdlet
     {
-        WriteObject(false);
+        protected override void ProcessRecord()
+        {
+            WriteObject(false);
+        }
     }
+    // endregion
 }
-// endregion
