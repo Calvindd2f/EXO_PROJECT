@@ -7,8 +7,24 @@ using System.Management.Automation;
 
 namespace Exchange.Functions.Management
 {
-    //Get-Clutter
-    //Get-FocusedInbox
-    //Set-Clutter
-    //Set-FocusedInbox
+    public class GetClutter : PSCmdlet
+    {
+
+    }
+    
+    public class GetFocusedInbox : PSCmdlet
+    {
+
+    }
+    
+    public class SetClutter : PSCmdlet
+    {
+
+    }
+    
+    public class SetFocusedInbox : PSCmdlet
+    {
+
+    }
+    
 }

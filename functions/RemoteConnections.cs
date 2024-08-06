@@ -7,40 +7,112 @@ using System.Management.Automation;
 
 namespace Exchange.Functions.RemoteConnections
 {
-    //Disable-OutlookProtectionRule
-    //Enable-OutlookProtectionRule
-    //Get-AcceptedDomain
-    //Get-ClassificationRuleCollection
-    //Get-HybridMailflow
-    //Get-HybridMailflowDatacenterIPs
-    //Get-MessageClassification
-    //Get-OrganizationConfig
-    //Get-OutlookProtectionRule
-    //Get-RemoteDomain
-    //Get-RMSTrustedPublishingDomain
-    //Get-TransportConfig
-    //Import-ContactList
-    //Import-RMSTrustedPublishingDomain
-    //New-ClassificationRuleCollection
-    //New-MessageClassification
-    //New-OutlookProtectionRule
-    //New-RemoteDomain
-    //Remove-ClassificationRuleCollection
-    //Remove-MessageClassification
-    //Remove-OutlookProtectionRule
-    //Remove-RemoteDomain
-    //Remove-RMSTrustedPublishingDomain
-    //Set-AcceptedDomain
-    //Set-ClassificationRuleCollection
-    //Set-HybridMailflow
-    //Set-MessageClassification
-    //Set-OrganizationConfig
-    //Set-OutlookProtectionRule
-    //Set-RemoteDomain
-    //Set-RMSTemplate
-    //Set-RMSTrustedPublishingDomain
-    //Set-TransportConfig
-    //Test-DataClassification
-    //Test-OAuthConnectivity
-    //Test-TextExtraction
+    public class DisableOutlookProtectionRule : PSCmdlet
+    {}
+    
+    public class EnableOutlookProtectionRule : PSCmdlet
+    {}
+    
+    public class GetAcceptedDomain : PSCmdlet
+    {}
+    
+    public class GetClassificationRuleCollection : PSCmdlet
+    {}
+    
+    public class GetHybridMailflow : PSCmdlet
+    {}
+    
+    public class GetHybridMailflowDatacenterIPs : PSCmdlet
+    {}
+    
+    public class GetMessageClassification : PSCmdlet
+    {}
+    
+    public class GetOrganizationConfig : PSCmdlet
+    {}
+    
+    public class GetOutlookProtectionRule : PSCmdlet
+    {}
+    
+    public class GetRemoteDomain : PSCmdlet
+    {}
+    
+    public class GetRMSTrustedPublishingDomain : PSCmdlet
+    {}
+    
+    public class GetTransportConfig : PSCmdlet
+    {}
+    
+    public class ImportContactList : PSCmdlet
+    {}
+    
+    public class ImportRMSTrustedPublishingDomain : PSCmdlet
+    {}
+    
+    public class NewClassificationRuleCollection : PSCmdlet
+    {}
+    
+    public class NewMessageClassification : PSCmdlet
+    {}
+    
+    public class NewOutlookProtectionRule : PSCmdlet
+    {}
+    
+    public class NewRemoteDomain : PSCmdlet
+    {}
+    
+    public class RemoveClassificationRuleCollection : PSCmdlet
+    {}
+    
+    public class RemoveMessageClassification : PSCmdlet
+    {}
+    
+    public class RemoveOutlookProtectionRule : PSCmdlet
+    {}
+    
+    public class RemoveRemoteDomain : PSCmdlet
+    {}
+    
+    public class RemoveRMSTrustedPublishingDomain : PSCmdlet
+    {}
+    
+    public class SetAcceptedDomain : PSCmdlet
+    {}
+    
+    public class SetClassificationRuleCollection : PSCmdlet
+    {}
+    
+    public class SetHybridMailflow : PSCmdlet
+    {}
+    
+    public class SetMessageClassification : PSCmdlet
+    {}
+    
+    public class SetOrganizationConfig : PSCmdlet
+    {}
+    
+    public class SetOutlookProtectionRule : PSCmdlet
+    {}
+    
+    public class SetRemoteDomain : PSCmdlet
+    {}
+    
+    public class SetRMSTemplate : PSCmdlet
+    {}
+    
+    public class SetRMSTrustedPublishingDomain : PSCmdlet
+    {}
+    
+    public class SetTransportConfig : PSCmdlet
+    {}
+    
+    public class TestDataClassification : PSCmdlet
+    {}
+    
+    public class TestOAuthConnectivity : PSCmdlet
+    {}
+    
+    public class TestTextExtraction : PSCmdlet
+    {}
+    
 }

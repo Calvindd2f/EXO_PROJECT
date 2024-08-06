@@ -7,65 +7,186 @@ using System.Management.Automation;
 
 namespace Exchange.Functions.CalendarsAndGroups
 {
-    //Add-AvailabilityAddressSpace
-    //Add-DistributionGroupMember
-    //Add-MailboxFolderPermission
-    //Export-MailboxDiagnosticLogs
-    //Get-AvailabilityAddressSpace
-    //Get-AvailabilityConfig
-    //Get-CalendarDiagnosticAnalysis
-    //Get-CalendarDiagnosticLog
-    //Get-CalendarDiagnosticObjects
-    //Get-CalendarProcessing
-    //Get-DistributionGroup
-    //Get-DistributionGroupMember
-    //Get-DynamicDistributionGroup
-    //Get-EligibleDistributionGroupForMigration
-    //Get-FederatedOrganizationIdentifier
-    //Get-FederationInformation
-    //Get-FederationTrust
-    //Get-Group
-    //Get-IntraOrganizationConfiguration
-    //Get-IntraOrganizationConnector
-    //Get-MailboxCalendarFolder
-    //Get-MailboxFolderPermission
-    //Get-OnlineMeetingConfiguration
-    //Get-OrganizationRelationship
-    //Get-Place
-    //Get-PlacesSettings
-    //Set-PlacesSettings
-    //Get-ResourceConfig
-    //Get-SharingPolicy
-    //New-AvailabilityConfig
-    //New-DistributionGroup
-    //New-DynamicDistributionGroup
-    //New-IntraOrganizationConnector
-    //New-OrganizationRelationship
-    //New-SharingPolicy
-    //Remove-AvailabilityAddressSpace
-    //Remove-AvailabilityConfig
-    //Remove-CalendarEvents
-    //Remove-DistributionGroup
-    //Remove-DistributionGroupMember
-    //Remove-DynamicDistributionGroup
-    //Remove-IntraOrganizationConnector
-    //Remove-MailboxFolderPermission
-    //Remove-OrganizationRelationship
-    //Remove-SharingPolicy
-    //Set-AvailabilityConfig
-    //Set-CalendarProcessing
-    //Set-DistributionGroup
-    //Set-DynamicDistributionGroup
-    //Set-FederatedOrganizationIdentifier
-    //Set-Group
-    //Set-IntraOrganizationConnector
-    //Set-MailboxCalendarFolder
-    //Set-MailboxFolderPermission
-    //Set-OrganizationRelationship
-    //Set-Place
-    //Set-ResourceConfig
-    //Set-SharingPolicy
-    //Test-OrganizationRelationship
-    //Update-DistributionGroupMember
-    //Upgrade-DistributionGroup
+    public class AddAvailabilityAddressSpace : PSCmdlet
+	{ }
+    
+    public class AddDistributionGroupMember : PSCmdlet
+	{ }
+    
+    public class AddMailboxFolderPermission : PSCmdlet
+	{ }
+    
+    public class ExportMailboxDiagnosticLogs : PSCmdlet
+	{ }
+    
+    public class GetAvailabilityAddressSpace : PSCmdlet
+	{ }
+    
+    public class GetAvailabilityConfig : PSCmdlet
+	{ }
+    
+    public class GetCalendarDiagnosticAnalysis : PSCmdlet
+	{ }
+    
+    public class GetCalendarDiagnosticLog : PSCmdlet
+	{ }
+    
+    public class GetCalendarDiagnosticObjects : PSCmdlet
+	{ }
+    
+    public class GetCalendarProcessing : PSCmdlet
+	{ }
+    
+    public class GetDistributionGroup : PSCmdlet
+	{ }
+    
+    public class GetDistributionGroupMember : PSCmdlet
+	{ }
+    
+    public class GetDynamicDistributionGroup : PSCmdlet
+	{ }
+    
+    public class GetEligibleDistributionGroupForMigration : PSCmdlet
+	{ }
+    
+    public class GetFederatedOrganizationIdentifier : PSCmdlet
+	{ }
+    
+    public class GetFederationInformation : PSCmdlet
+	{ }
+    
+    public class GetFederationTrust : PSCmdlet
+	{ }
+    
+    public class GetGroup : PSCmdlet
+	{ }
+    
+    public class GetIntraOrganizationConfiguration : PSCmdlet
+	{ }
+    
+    public class GetIntraOrganizationConnector : PSCmdlet
+	{ }
+    
+    public class GetMailboxCalendarFolder : PSCmdlet
+	{ }
+    
+    public class GetMailboxFolderPermission : PSCmdlet
+	{ }
+    
+    public class GetOnlineMeetingConfiguration : PSCmdlet
+	{ }
+    
+    public class GetOrganizationRelationship : PSCmdlet
+	{ }
+    
+    public class GetPlace : PSCmdlet
+	{ }
+    
+    public class GetPlacesSettings : PSCmdlet
+	{ }
+    
+    public class SetPlacesSettings : PSCmdlet
+	{ }
+    
+    public class GetResourceConfig : PSCmdlet
+	{ }
+    
+    public class GetSharingPolicy : PSCmdlet
+	{ }
+    
+    public class NewAvailabilityConfig : PSCmdlet
+	{ }
+    
+    public class NewDistributionGroup : PSCmdlet
+	{ }
+    
+    public class NewDynamicDistributionGroup : PSCmdlet
+	{ }
+    
+    public class NewIntraOrganizationConnector : PSCmdlet
+	{ }
+    
+    public class NewOrganizationRelationship : PSCmdlet
+	{ }
+    
+    public class NewSharingPolicy : PSCmdlet
+	{ }
+    
+    public class RemoveAvailabilityAddressSpace : PSCmdlet
+	{ }
+    
+    public class RemoveAvailabilityConfig : PSCmdlet
+	{ }
+    
+    public class RemoveCalendarEvents : PSCmdlet
+	{ }
+    
+    public class RemoveDistributionGroup : PSCmdlet
+	{ }
+    
+    public class RemoveDistributionGroupMember : PSCmdlet
+	{ }
+    
+    public class RemoveDynamicDistributionGroup : PSCmdlet
+	{ }
+    
+    public class RemoveIntraOrganizationConnector : PSCmdlet
+	{ }
+    
+    public class RemoveMailboxFolderPermission : PSCmdlet
+	{ }
+    
+    public class RemoveOrganizationRelationship : PSCmdlet
+	{ }
+    
+    public class RemoveSharingPolicy : PSCmdlet
+	{ }
+    
+    public class SetAvailabilityConfig : PSCmdlet
+	{ }
+    
+    public class SetCalendarProcessing : PSCmdlet
+	{ }
+    
+    public class SetDistributionGroup : PSCmdlet
+	{ }
+    
+    public class SetDynamicDistributionGroup : PSCmdlet
+	{ }
+    
+    public class SetFederatedOrganizationIdentifier : PSCmdlet
+	{ }
+    
+    public class SetGroup : PSCmdlet
+	{ }
+    
+    public class SetIntraOrganizationConnector : PSCmdlet
+	{ }
+    
+    public class SetMailboxCalendarFolder : PSCmdlet
+	{ }
+    
+    public class SetMailboxFolderPermission : PSCmdlet
+	{ }
+    
+    public class SetOrganizationRelationship : PSCmdlet
+	{ }
+    
+    public class SetPlace : PSCmdlet
+	{ }
+    
+    public class SetResourceConfig : PSCmdlet
+	{ }
+    
+    public class SetSharingPolicy : PSCmdlet
+	{ }
+    
+    public class TestOrganizationRelationship : PSCmdlet
+	{ }
+    
+    public class UpdateDistributionGroupMember : PSCmdlet
+	{ }
+    
+    public class UpgradeDistributionGroup : PSCmdlet
+	{ }
 }

@@ -7,60 +7,172 @@ using System.Management.Automation;
 
 namespace Exchange.functions.RecordsandEdge
 {
-    //Add-ComplianceCaseMember
-    //Add-eDiscoveryCaseAdmin
-    //Get-AdminAuditLogConfig
-    //Get-AuditLogSearch
-    //Get-ComplianceCase
-    //Get-ComplianceCaseMember
-    //Get-ComplianceSearch
-    //Get-ComplianceSearchAction
-    //Get-ComplianceSecurityFilter
-    //Get-eDiscoveryCaseAdmin
-    //Get-MailboxAuditBypassAssociation
-    //Get-MailboxFolderStatistics
-    //Get-MailboxSearch
-    //Get-RecoverableItems
-    //Get-RetentionPolicy
-    //Get-RetentionPolicyTag
-    //Invoke-ComplianceSearchActionStep
-    //New-AdminAuditLogSearch
-    //New-ComplianceCase
-    //New-ComplianceSearch
-    //New-ComplianceSearchAction
-    //New-ComplianceSecurityFilter
-    //New-MailboxAuditLogSearch
-    //New-MailboxSearch
-    //New-RetentionPolicy
-    //New-RetentionPolicyTag
-    //Remove-ComplianceCase
-    //Remove-ComplianceCaseMember
-    //Remove-ComplianceSearch
-    //Remove-ComplianceSearchAction
-    //Remove-ComplianceSecurityFilter
-    //Remove-eDiscoveryCaseAdmin
-    //Remove-MailboxSearch
-    //Remove-RetentionPolicy
-    //Remove-RetentionPolicyTag
-    //Restore-RecoverableItems
-    //Search-AdminAuditLog
-    //Search-MailboxAuditLog
-    //Search-UnifiedAuditLog
-    //Set-AdminAuditLogConfig
-    //Set-ComplianceCase
-    //Set-ComplianceSearch
-    //Set-ComplianceSearchAction
-    //Set-ComplianceSecurityFilter
-    //Set-MailboxAuditBypassAssociation
-    //Set-Mailboxsearch
-    //Set-RetentionPolicy
-    //Set-RetentionPolicyTag
-    //Start-ComplianceSearch
-    //Start-MailboxSearch
-    //Start-ManagedFolderAssistant
-    //Stop-ComplianceSearch
-    //Stop-MailboxSearch
-    //Update-ComplianceCaseMember
-    //Update-eDiscoveryCaseAdmin
-    //Write-AdminAuditLog
+    public class AddComplianceCaseMember : PSCmdlet
+    {}
+    
+    public class AddeDiscoveryCaseAdmin : PSCmdlet
+    {}
+    
+    public class GetAdminAuditLogConfig : PSCmdlet
+    {}
+    
+    public class GetAuditLogSearch : PSCmdlet
+    {}
+    
+    public class GetComplianceCase : PSCmdlet
+    {}
+    
+    public class GetComplianceCaseMember : PSCmdlet
+    {}
+    
+    public class GetComplianceSearch : PSCmdlet
+    {}
+    
+    public class GetComplianceSearchAction : PSCmdlet
+    {}
+    
+    public class GetComplianceSecurityFilter : PSCmdlet
+    {}
+    
+    public class GeteDiscoveryCaseAdmin : PSCmdlet
+    {}
+    
+    public class GetMailboxAuditBypassAssociation : PSCmdlet
+    {}
+    
+    public class GetMailboxFolderStatistics : PSCmdlet
+    {}
+    
+    public class GetMailboxSearch : PSCmdlet
+    {}
+    
+    public class GetRecoverableItems : PSCmdlet
+    {}
+    
+    public class GetRetentionPolicy : PSCmdlet
+    {}
+    
+    public class GetRetentionPolicyTag : PSCmdlet
+    {}
+    
+    public class InvokeComplianceSearchActionStep : PSCmdlet
+    {}
+    
+    public class NewAdminAuditLogSearch : PSCmdlet
+    {}
+    
+    public class NewComplianceCase : PSCmdlet
+    {}
+    
+    public class NewComplianceSearch : PSCmdlet
+    {}
+    
+    public class NewComplianceSearchAction : PSCmdlet
+    {}
+    
+    public class NewComplianceSecurityFilter : PSCmdlet
+    {}
+    
+    public class NewMailboxAuditLogSearch : PSCmdlet
+    {}
+    
+    public class NewMailboxSearch : PSCmdlet
+    {}
+    
+    public class NewRetentionPolicy : PSCmdlet
+    {}
+    
+    public class NewRetentionPolicyTag : PSCmdlet
+    {}
+    
+    public class RemoveComplianceCase : PSCmdlet
+    {}
+    
+    public class RemoveComplianceCaseMember : PSCmdlet
+    {}
+    
+    public class RemoveComplianceSearch : PSCmdlet
+    {}
+    
+    public class RemoveComplianceSearchAction : PSCmdlet
+    {}
+    
+    public class RemoveComplianceSecurityFilter : PSCmdlet
+    {}
+    
+    public class RemoveeDiscoveryCaseAdmin : PSCmdlet
+    {}
+    
+    public class RemoveMailboxSearch : PSCmdlet
+    {}
+    
+    public class RemoveRetentionPolicy : PSCmdlet
+    {}
+    
+    public class RemoveRetentionPolicyTag : PSCmdlet
+    {}
+    
+    public class RestoreRecoverableItems : PSCmdlet
+    {}
+    
+    public class SearchAdminAuditLog : PSCmdlet
+    {}
+    
+    public class SearchMailboxAuditLog : PSCmdlet
+    {}
+    
+    public class SearchUnifiedAuditLog : PSCmdlet
+    {}
+    
+    public class SetAdminAuditLogConfig : PSCmdlet
+    {}
+    
+    public class SetComplianceCase : PSCmdlet
+    {}
+    
+    public class SetComplianceSearch : PSCmdlet
+    {}
+    
+    public class SetComplianceSearchAction : PSCmdlet
+    {}
+    
+    public class SetComplianceSecurityFilter : PSCmdlet
+    {}
+    
+    public class SetMailboxAuditBypassAssociation : PSCmdlet
+    {}
+    
+    public class SetMailboxsearch : PSCmdlet
+    {}
+    
+    public class SetRetentionPolicy : PSCmdlet
+    {}
+    
+    public class SetRetentionPolicyTag : PSCmdlet
+    {}
+    
+    public class StartComplianceSearch : PSCmdlet
+    {}
+    
+    public class StartMailboxSearch : PSCmdlet
+    {}
+    
+    public class StartManagedFolderAssistant : PSCmdlet
+    {}
+    
+    public class StopComplianceSearch : PSCmdlet
+    {}
+    
+    public class StopMailboxSearch : PSCmdlet
+    {}
+    
+    public class UpdateComplianceCaseMember : PSCmdlet
+    {}
+    
+    public class UpdateeDiscoveryCaseAdmin : PSCmdlet
+    {}
+    
+    public class WriteAdminAuditLog : PSCmdlet
+    {}
+    
 }

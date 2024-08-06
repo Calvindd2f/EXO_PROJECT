@@ -7,57 +7,163 @@ using System.Management.Automation;
 
 namespace Exchange.Functions.ProvisioningAndMigration
 {
-    //Add-RecipientPermission
-    //Complete-MigrationBatch
-    //Export-MigrationReport
-    //Get-CASMailboxPlan
-    //Get-MailboxImportRequest
-    //Get-MailboxImportRequestStatistics
-    //Get-MailboxPlan
-    //Get-MailboxRestoreRequest
-    //Get-MailboxRestoreRequestStatistics
-    //Get-MigrationBatch
-    //Get-MigrationConfig
-    //Get-MigrationEndpoint
-    //Get-MigrationStatistics
-    //Get-MigrationUser
-    //Get-MigrationUserStatistics
-    //Get-MoveRequest
-    //Get-MoveRequestStatistics
-    //Get-PublicFolderMailboxMigrationRequest
-    //Get-PublicFolderMailboxMigrationRequestStatistics
-    //Get-RecipientPermission
-    //New-MailboxImportRequest
-    //New-MailboxRestoreRequest
-    //New-MigrationBatch
-    //New-MigrationEndpoint
-    //New-MoveRequest
-    //Remove-MailboxImportRequest
-    //Remove-MailboxRestoreRequest
-    //Remove-MigrationBatch
-    //Remove-MigrationEndpoint
-    //Remove-MigrationUser
-    //Remove-MoveRequest
-    //Remove-PublicFolderMailboxMigrationRequest
-    //Remove-RecipientPermission
-    //Resume-MailboxImportRequest
-    //Resume-MailboxRestoreRequest
-    //Resume-MoveRequest
-    //Set-MailboxImportRequest
-    //Set-MailboxPlan
-    //Set-MailboxRestoreRequest
-    //Set-MigrationBatch
-    //Set-MigrationConfig
-    //Set-MigrationEndpoint
-    //Set-MigrationUser
-    //Set-MoveRequest
-    //Start-MigrationBatch
-    //Start-MigrationUser
-    //Stop-MigrationBatch
-    //Stop-MigrationUser
-    //Suspend-MailboxImportRequest
-    //Suspend-MailboxRestoreRequest
-    //Suspend-MoveRequest
-    //Suspend-PublicFolderMailboxMigrationRequest
-    //Test-MigrationServerAvailability
+    public class AddRecipientPermission : PSCmdlet
+    {}
+    
+    public class CompleteMigrationBatch : PSCmdlet
+    {}
+    
+    public class ExportMigrationReport : PSCmdlet
+    {}
+    
+    public class GetCASMailboxPlan : PSCmdlet
+    {}
+    
+    public class GetMailboxImportRequest : PSCmdlet
+    {}
+    
+    public class GetMailboxImportRequestStatistics : PSCmdlet
+    {}
+    
+    public class GetMailboxPlan : PSCmdlet
+    {}
+    
+    public class GetMailboxRestoreRequest : PSCmdlet
+    {}
+    
+    public class GetMailboxRestoreRequestStatistics : PSCmdlet
+    {}
+    
+    public class GetMigrationBatch : PSCmdlet
+    {}
+    
+    public class GetMigrationConfig : PSCmdlet
+    {}
+    
+    public class GetMigrationEndpoint : PSCmdlet
+    {}
+    
+    public class GetMigrationStatistics : PSCmdlet
+    {}
+    
+    public class GetMigrationUser : PSCmdlet
+    {}
+    
+    public class GetMigrationUserStatistics : PSCmdlet
+    {}
+    
+    public class GetMoveRequest : PSCmdlet
+    {}
+    
+    public class GetMoveRequestStatistics : PSCmdlet
+    {}
+    
+    public class GetPublicFolderMailboxMigrationRequest : PSCmdlet
+    {}
+    
+    public class GetPublicFolderMailboxMigrationRequestStatistics : PSCmdlet
+    {}
+    
+    public class GetRecipientPermission : PSCmdlet
+    {}
+    
+    public class NewMailboxImportRequest : PSCmdlet
+    {}
+    
+    public class NewMailboxRestoreRequest : PSCmdlet
+    {}
+    
+    public class NewMigrationBatch : PSCmdlet
+    {}
+    
+    public class NewMigrationEndpoint : PSCmdlet
+    {}
+    
+    public class NewMoveRequest : PSCmdlet
+    {}
+    
+    public class RemoveMailboxImportRequest : PSCmdlet
+    {}
+    
+    public class RemoveMailboxRestoreRequest : PSCmdlet
+    {}
+    
+    public class RemoveMigrationBatch : PSCmdlet
+    {}
+    
+    public class RemoveMigrationEndpoint : PSCmdlet
+    {}
+    
+    public class RemoveMigrationUser : PSCmdlet
+    {}
+    
+    public class RemoveMoveRequest : PSCmdlet
+    {}
+    
+    public class RemovePublicFolderMailboxMigrationRequest : PSCmdlet
+    {}
+    
+    public class RemoveRecipientPermission : PSCmdlet
+    {}
+    
+    public class ResumeMailboxImportRequest : PSCmdlet
+    {}
+    
+    public class ResumeMailboxRestoreRequest : PSCmdlet
+    {}
+    
+    public class ResumeMoveRequest : PSCmdlet
+    {}
+    
+    public class SetMailboxImportRequest : PSCmdlet
+    {}
+    
+    public class SetMailboxPlan : PSCmdlet
+    {}
+    
+    public class SetMailboxRestoreRequest : PSCmdlet
+    {}
+    
+    public class SetMigrationBatch : PSCmdlet
+    {}
+    
+    public class SetMigrationConfig : PSCmdlet
+    {}
+    
+    public class SetMigrationEndpoint : PSCmdlet
+    {}
+    
+    public class SetMigrationUser : PSCmdlet
+    {}
+    
+    public class SetMoveRequest : PSCmdlet
+    {}
+    
+    public class StartMigrationBatch : PSCmdlet
+    {}
+    
+    public class StartMigrationUser : PSCmdlet
+    {}
+    
+    public class StopMigrationBatch : PSCmdlet
+    {}
+    
+    public class StopMigrationUser : PSCmdlet
+    {}
+    
+    public class SuspendMailboxImportRequest : PSCmdlet
+    {}
+    
+    public class SuspendMailboxRestoreRequest : PSCmdlet
+    {}
+    
+    public class SuspendMoveRequest : PSCmdlet
+    {}
+    
+    public class SuspendPublicFolderMailboxMigrationRequest : PSCmdlet
+    {}
+    
+    public class TestMigrationServerAvailability : PSCmdlet
+    {}
+    
 }
