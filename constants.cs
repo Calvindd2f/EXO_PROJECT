@@ -7,14 +7,15 @@ namespace Exchange.Constants
     public const int DefaultRetryIntervalInMilliseconds = 2000;
     public const int DefaultRetryIntervalExponentBase = 2;
     public const int DefaultPageSize = 1000;
+    public const int DefaultRetryLimitForSeverSideException = 2;
 
-    public static readonly HttpStatusCode[] RetryableResponses =
+    public static readonly HttpStatusCode[] RetryableResponses = new[]
     {
         HttpStatusCode.Unauthorized,
         HttpStatusCode.ServiceUnavailable,
         HttpStatusCode.GatewayTimeout
     };
-    public static readonly string[] RetryableExceptions =
+    public static readonly string[] RetryableExceptions = new[]
     {
         "DCOverloadedException",
         "SuitabilityDirectoryException",
@@ -54,9 +55,9 @@ namespace Exchange.Constants
         "VGhlcmUgYXJlIG1vcmUgcmVzdWx0cyBhdmFpbGFibGUgdGhhbiBhcmUgY3VycmVudGx5IGRpc3BsYXllZC4gVG8gdmlldyB0aGVtLCBpbmNyZWFzZSB0aGUgdmFsdWUgZm9yIHRoZSBSZXN1bHRTaXplIHBhcmFtZXRlci4="
     };
 
-    public const string FilterWarningsInPaginationDecoded = "";
+    public static readonly string FilterWarningsInPaginationDecoded = string.Empty;
 
-    public static bool ExoLastExecutionStatus { get; set; } = true;
+    public static bool EXO_LastExecutionStatus = true;
 
     // endregion
     //* ################################################################################################
